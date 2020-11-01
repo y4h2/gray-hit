@@ -1,0 +1,62 @@
+[
+  {
+    "layer": {
+      "id": "layer1",
+      "data": "something1"
+    },
+    "grayRules": [
+      {
+        "name": "source",
+        "enabled": true,
+        "include": [
+          "A"
+        ],
+        "exclude": [],
+        "global": false
+      },
+      {
+        "name": "city",
+        "enabled": true,
+        "include": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "exclude": [],
+        "global": false
+      }
+    ],
+    "divRule": {
+      "percent": 10
+    }
+  },
+  {
+    "layer": {
+      "id": "layer2",
+      "data": "something2"
+    },
+    "grayRules": [
+      {
+        "name": "source",
+        "enabled": true,
+        "include": [
+          "B"
+        ],
+        "exclude": [],
+        "global": false
+      },
+      {
+        "name": "city",
+        "enabled": true,
+        "include": [
+          "C10"
+        ],
+        "exclude": [],
+        "global": false
+      }
+    ],
+    "divRule": {
+      "percent":5
+    }
+  }
+]
